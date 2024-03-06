@@ -25,9 +25,9 @@
       "_routing-Bhfc4cv3.js"
     ]
   },
-  "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "about.js",
-    "src": "src/routes/about.tsx?pick=default&pick=$css",
+  "src/routes/resume.tsx?pick=default&pick=$css": {
+    "file": "resume.js",
+    "src": "src/routes/resume.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -55,8 +55,8 @@
       "_routing-Bhfc4cv3.js"
     ],
     "dynamicImports": [
-      "src/routes/about.tsx?pick=default&pick=$css",
-      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/resume.tsx?pick=default&pick=$css",
+      "src/routes/resume.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",

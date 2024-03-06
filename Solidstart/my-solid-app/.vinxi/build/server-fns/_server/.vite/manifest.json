@@ -11,8 +11,8 @@
   "_server-fns.mjs": {
     "file": "server-fns.mjs",
     "dynamicImports": [
-      "src/routes/about.tsx?pick=default&pick=$css",
-      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/resume.tsx?pick=default&pick=$css",
+      "src/routes/resume.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
@@ -31,9 +31,9 @@
       "_server-fns.mjs"
     ]
   },
-  "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "about.mjs",
-    "src": "src/routes/about.tsx?pick=default&pick=$css",
+  "src/routes/resume.tsx?pick=default&pick=$css": {
+    "file": "resume.mjs",
+    "src": "src/routes/resume.tsx?pick=default&pick=$css",
     "isDynamicEntry": true,
     "imports": [
       "_Counter.mjs",

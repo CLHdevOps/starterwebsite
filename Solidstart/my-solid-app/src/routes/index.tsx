@@ -22,7 +22,7 @@ export default function Home() {
       <p class="my-4">
         <span>Home</span>
         {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
+        <A href="/resume" class="text-sky-600 hover:underline">
           Resume Page
         </A>{" "}
       </p>

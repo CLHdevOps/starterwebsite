@@ -28,9 +28,9 @@
       "_components-COZzeT0n.js"
     ]
   },
-  "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-Ds-nLvsD.js",
-    "src": "src/routes/about.tsx?pick=default&pick=$css",
+  "src/routes/resume.tsx?pick=default&pick=$css": {
+    "file": "assets/resume-Ds-nLvsD.js",
+    "src": "src/routes/resume.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -58,7 +58,7 @@
       "_routing-gUp-SHah.js"
     ],
     "dynamicImports": [
-      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/resume.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css"
     ],
