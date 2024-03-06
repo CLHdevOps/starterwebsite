@@ -1,0 +1,69 @@
+{
+  "_Counter-CIw7GYgX.js": {
+    "file": "assets/Counter-CIw7GYgX.js"
+  },
+  "_components-ChzR-lMO.js": {
+    "file": "assets/components-ChzR-lMO.js",
+    "imports": [
+      "_routing-Bhfc4cv3.js"
+    ]
+  },
+  "_routing-Bhfc4cv3.js": {
+    "file": "assets/routing-Bhfc4cv3.js"
+  },
+  "node_modules/shikiji/dist/onig.wasm": {
+    "file": "assets/onig-Du5pRr7Y.wasm",
+    "src": "node_modules/shikiji/dist/onig.wasm"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "_...404_.js",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_components-ChzR-lMO.js",
+      "_routing-Bhfc4cv3.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "about.js",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_Counter-CIw7GYgX.js",
+      "_components-ChzR-lMO.js",
+      "_routing-Bhfc4cv3.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "index.js",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_Counter-CIw7GYgX.js",
+      "_components-ChzR-lMO.js",
+      "_routing-Bhfc4cv3.js"
+    ]
+  },
+  "virtual:#vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "src": "virtual:#vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_routing-Bhfc4cv3.js"
+    ],
+    "dynamicImports": [
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/ssr-uyNkdzfR.css"
+    ]
+  }
+}

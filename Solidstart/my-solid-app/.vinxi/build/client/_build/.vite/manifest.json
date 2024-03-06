@@ -1,0 +1,69 @@
+{
+  "_Counter-BaWkxXvH.js": {
+    "file": "assets/Counter-BaWkxXvH.js",
+    "imports": [
+      "_routing-gUp-SHah.js"
+    ]
+  },
+  "_components-COZzeT0n.js": {
+    "file": "assets/components-COZzeT0n.js",
+    "imports": [
+      "_routing-gUp-SHah.js"
+    ]
+  },
+  "_routing-gUp-SHah.js": {
+    "file": "assets/routing-gUp-SHah.js"
+  },
+  "node_modules/shikiji/dist/onig.wasm": {
+    "file": "assets/onig-Du5pRr7Y.wasm",
+    "src": "node_modules/shikiji/dist/onig.wasm"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-D0V8GVla.js",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-gUp-SHah.js",
+      "_components-COZzeT0n.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "assets/about-Ds-nLvsD.js",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-gUp-SHah.js",
+      "_Counter-BaWkxXvH.js",
+      "_components-COZzeT0n.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-DfaGxyJt.js",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-gUp-SHah.js",
+      "_Counter-BaWkxXvH.js",
+      "_components-COZzeT0n.js"
+    ]
+  },
+  "virtual:#vinxi/handler/client": {
+    "file": "assets/client-BBbQH1jc.js",
+    "src": "virtual:#vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_routing-gUp-SHah.js"
+    ],
+    "dynamicImports": [
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-uyNkdzfR.css"
+    ]
+  }
+}

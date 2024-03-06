@@ -1,0 +1,62 @@
+{
+  "_Counter.mjs": {
+    "file": "Counter.mjs"
+  },
+  "_components.mjs": {
+    "file": "components.mjs",
+    "imports": [
+      "_server-fns.mjs"
+    ]
+  },
+  "_server-fns.mjs": {
+    "file": "server-fns.mjs",
+    "dynamicImports": [
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/server-fns-uyNkdzfR.css"
+    ]
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "_...404_.mjs",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_components.mjs",
+      "_server-fns.mjs"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "about.mjs",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Counter.mjs",
+      "_components.mjs",
+      "_server-fns.mjs"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "index.mjs",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Counter.mjs",
+      "_components.mjs",
+      "_server-fns.mjs"
+    ]
+  },
+  "virtual:#vinxi/handler/server-fns": {
+    "file": "entry.mjs",
+    "src": "virtual:#vinxi/handler/server-fns",
+    "isEntry": true,
+    "imports": [
+      "_server-fns.mjs"
+    ]
+  }
+}

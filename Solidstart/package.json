@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "solid-start-cloudflare-pages": "^0.3.10"
+  }
+}
