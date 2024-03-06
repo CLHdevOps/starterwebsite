@@ -23,7 +23,7 @@ export default function Home() {
         <span>Home</span>
         {" - "}
         <A href="/about" class="text-sky-600 hover:underline">
-          About Page
+          Resume Page
         </A>{" "}
       </p>
     </main>
